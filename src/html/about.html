@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adzztaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="layout">
+    <header class="header">
+        <nav class="header__topbar">
+            <ul class="header__topbar__menu left">
+                <li class="header__topbar__menu__item">
+                    <a href="/">Home</a>
+                </li>
+            </ul>
+            <div class="header__topbar__branding">
+                <img src="<%= require('../assets/img/logo-dark.svg') %>" />
+            </div>
+            <ul class="header__topbar__menu right">
+                <li class="header__topbar__menu__item">
+                    <a href="/login"><i class="bi bi-person-circle"></i> Login</a>
+                </li>
+                <li class="header__topbar__menu__item">
+                    <a href="/cart"><i class="bi bi-cart"></i> Cart</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="header__jumbotron">
+            <div class="header__jumbotron__image-overlay">
+                <img src="<%= require('../assets/img/aydzz-hero.png') %>"/>
+            </div>
+            <div class="header__jumbotron__branding">
+                <img class="brand-logo" src="<%= require('../assets/img/logo-light.svg') %>"/>
+                <span class="brand-name">adzztaurant</span>
+            </div>
+        </section>
+        <nav class="header__navbar">
+            <ul class="header__navbar__menu left">
+                <li class="header__navbar__menu__item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="header__navbar__menu__item">
+                    <a href="/">Menu</a>
+                </li>
+                <li class="header__navbar__menu__item">
+                    <a href="/">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-container">
+        <div class="content-container__content about-us">
+            <section class="about-us__headline">
+                <h1>Crafting Culinary Experiences for Every Palate - From Cozy Cafés to Esteemed Establishment</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda suscipit ratione iusto laudantium dolores ut! Magnam distinctio rerum explicabo officia eius nulla et architecto similique voluptatum voluptatem perspiciatis, iusto facilis?</p>
+            </section>
+            <section class="about-us__introduction">
+                <div class="article">
+                    <h1>Elevating Culinary Excellence</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita vel incidunt quia neque provident, consectetur, totam molestiae atque, nobis quasi aliquid! Quos molestiae esse delectus eligendi consequatur ab sed!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perspiciatis iure atque, porro beatae harum earum animi eveniet! Facere officia ipsa obcaecati commodi eaque iste labore eius odit. Odio, dolore.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel corrupti, repellat labore autem doloremque enim ratione alias cum odio sapiente quod quidem. Consectetur odio nihil reiciendis architecto eligendi blanditiis voluptatum!</p>
+                </div>
+                <div class="image">
+                    <img src="https://picsum.photos/1920/1080">
+                </div>
+            </section>
+            <section class="about-us__introduction">
+                <div class="image">
+                    <img src="https://picsum.photos/1080/720">
+                </div>
+                <div class="article">
+                    <h1>Indulge in Culinary Mastery</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita vel incidunt quia neque provident, consectetur, totam molestiae atque, nobis quasi aliquid! Quos molestiae esse delectus eligendi consequatur ab sed!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perspiciatis iure atque, porro beatae harum earum animi eveniet! Facere officia ipsa obcaecati commodi eaque iste labore eius odit. Odio, dolore.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel corrupti, repellat labore autem doloremque enim ratione alias cum odio sapiente quod quidem. Consectetur odio nihil reiciendis architecto eligendi blanditiis voluptatum!</p>
+                </div>
+                
+            </section>
+            <section class="about-us__services">
+                <h1>Join the Culinary Experience - Savor Every Moment</h1>
+                <ul class="about-us__services__list">
+                    <li class="about-us__services__list__item">
+                        <i class="bi bi-egg-fried"></i>
+                        <p>Catering Services</p>
+                    </li>
+                    <li class="about-us__services__list__item">
+                        <i class="bi bi-calendar"></i>
+                        <p>Events</p>
+                    </li>
+                    <li class="about-us__services__list__item">
+                        <i class="bi bi-buildings"></i>
+                        <p>Venue</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__business-address">
+            123 Main Street | Block 4B Lot 55 | New York City
+        </p>
+        <p class="footer__copyright">
+            Copyright © 2024 High St Deli.<br/>
+            All rights reserved.
+        </p>
+        <div class="footer__socials">
+            <p>Follow us on our socials</p>
+            <ul class="footer__socials__list">
+                <li class="footer__socials__list__item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="footer__socials__list__item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="footer__socials__list__item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

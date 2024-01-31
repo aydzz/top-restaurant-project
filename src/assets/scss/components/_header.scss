@@ -1,0 +1,11 @@
+.header{
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+        "topbar"
+        "jumbotron"
+        "navbar";
+    grid-template-rows: $topbar-height min-content $header-navbar-height;
+    background-color: #fff;
+    z-index: 10;
+}

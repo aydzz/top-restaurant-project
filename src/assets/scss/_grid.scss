@@ -1,0 +1,16 @@
+@mixin breakpoint-min($name, $breakpoints: $grid-breakpoints){
+    @if($name){
+        $size: map-get($breakpoints, $name);
+        @if($size != 0){
+            @media screen and (min-width: $size) {
+                @content;
+            }
+        }@else{
+            @content;
+        }
+        
+    }@else{
+        @content;
+    }
+}
+

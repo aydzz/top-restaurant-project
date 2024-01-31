@@ -1,0 +1,53 @@
+.header__jumbotron{
+    grid-area: jumbotron;
+    min-height: 500px;
+    position: relative;
+    &__image-overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        &::after{
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #00000044;
+        }
+        img{
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            position: absolute;
+            object-position: 50% 30%;
+        }
+    }
+    &__branding{
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .brand-logo{
+            padding: 3rem;
+            border-radius: 50%;
+            background-color: #292929;
+            z-index: 100;
+            height: 225px;
+            border-left: 5px solid #255676;
+            border-right: 5px solid #802840;
+        }
+        .brand-name{
+            font-size: 3rem;
+            font-family: "Courgette Regular";
+            color: #fff;
+        }
+    }
+}
+
