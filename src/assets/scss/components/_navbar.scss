@@ -16,6 +16,9 @@
             &:hover{
                 border-bottom: 5px solid black;
             }
+            &.active{
+                border-bottom: 5px solid black;
+            }
             a{
                 font-family: "Courgette Regular" !important;
             }

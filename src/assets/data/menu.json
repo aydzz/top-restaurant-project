@@ -1,0 +1,34 @@
+{
+    "menu": [
+        {
+            "name": "Monday Special",
+            "imageURL": "",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi corporis beatae saepe eum, molestias quae nemo nostrum modi nihil praesentium illum accusantium et, nam quisquam laborum dolorum, quia explicabo corrupti.",
+            "price": 13.00
+        },
+        {
+            "name": "Dutch Punch",
+            "imageURL": "",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi corporis beatae saepe eum, molestias quae nemo nostrum modi nihil praesentium illum accusantium et, nam quisquam laborum dolorum, quia explicabo corrupti.",
+            "price": 12.00
+        },
+        {
+            "name": "Turkey Pesto",
+            "imageURL": "",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi corporis beatae saepe eum, molestias quae nemo nostrum modi nihil praesentium illum accusantium et, nam quisquam laborum dolorum, quia explicabo corrupti.",
+            "price": 14.00
+        },
+        {
+            "name": "Jalapeno Popper",
+            "imageURL": "",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi corporis beatae saepe eum, molestias quae nemo nostrum modi nihil praesentium illum accusantium et, nam quisquam laborum dolorum, quia explicabo corrupti.",
+            "price": 15.00
+        },
+        {
+            "name": "California Turkey",
+            "imageURL": "",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi corporis beatae saepe eum, molestias quae nemo nostrum modi nihil praesentium illum accusantium et, nam quisquam laborum dolorum, quia explicabo corrupti.",
+            "price": 20.00
+        }
+    ]
+}
